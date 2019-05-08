@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="CopyTextBox.widget.CopyTextBox" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>CopyTextBox</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="value" type="attribute" required="true" >
+            <caption>attribute</caption>
+            <category>Data Source</category>
+            <description>The value of the text box</description>
+            <attributeTypes>
+                <attributeType name="String" />
+            </attributeTypes>
+        </property>
+        <property key="delay" type="integer" defaultValue="1500" required="true">
+            <caption>delay (in ms)</caption>
+            <category>Data Source</category>
+            <description>The delay until the alert that the contents of the text box has been copied to the clipboard disappears</description>
+        </property>
+    </properties>
+</widget>

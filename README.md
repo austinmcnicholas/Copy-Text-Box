@@ -1,3 +1,4 @@
-# Mendix Widget Boilerplate
+# Copy Text Box
 
-See [AppStoreWidgetBoilerplate](https://github.com/mendix/AppStoreWidgetBoilerplate/) for an example
+a mendix text box with a copy button next to it. The copy button will copy the contents of the text box to the users clipboard
+
